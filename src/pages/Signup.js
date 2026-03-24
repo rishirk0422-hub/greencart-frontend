@@ -87,7 +87,7 @@ function Signup() {
             color="text.secondary"
             sx={{ mb: 2 }}
           >
-            Start your GreenCart journey
+            Start your Scrap Flow journey
           </Typography>
 
           <form onSubmit={handleSubmit(onSubmit)}>

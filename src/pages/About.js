@@ -53,11 +53,11 @@ function About() {
               fontWeight: 700,
             }}
           >
-            About GreenCart ♻️
+            About Scrap Flow ♻️
           </Typography>
 
           <Typography sx={{ mt: 2, maxWidth: 600, mx: "auto" }}>
-            GreenCart is on a mission to simplify recycling by connecting users
+          Scrap Flow is on a mission to simplify recycling by connecting users
             with collectors and turning waste into value.
           </Typography>
         </Container>

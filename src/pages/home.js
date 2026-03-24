@@ -62,7 +62,7 @@ import { useNavigate } from "react-router-dom";
             </Typography>
 
             <Typography sx={{ mt: 2, mb: 4 }}>
-              Book pickups, track orders, and recycle smartly with GreenCart
+              Book pickups, track orders, and recycle smartly with Scrap Flow
             </Typography>
 
             <Button

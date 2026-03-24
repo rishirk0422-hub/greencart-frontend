@@ -67,7 +67,7 @@ function Navbar() {
             sx={{ fontWeight: "bold", cursor: "pointer" }}
             onClick={() => go("/home")}
           >
-            🌿 GreenCart
+            🌿 Scrap Flow
           </Typography>
 
           {/* DESKTOP NAV */}

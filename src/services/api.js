@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000"
-  // baseURL: "https://greencart-backend-4.onrender.com"
+  // baseURL: "http://localhost:5000"
+  baseURL: "https://greencart-backend-4.onrender.com"
 });
 
 // ✅ attach token to every request
