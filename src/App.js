@@ -36,6 +36,7 @@ function App() {
         {/* MAIN CONTENT */}
         <Box sx={{ flex: 1 }}>
           <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/makesell" element={<MakeSell />} />

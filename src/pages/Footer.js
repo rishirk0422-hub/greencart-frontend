@@ -91,14 +91,14 @@ import {
             <Box sx={{ display: "flex", alignItems: "center", mb: 1 }}>
               <Email sx={{ mr: 1 }} fontSize="small" />
               <Typography fontSize={14}>
-                support@meeratech.com
+                rishirk0422@gmail.com
               </Typography>
             </Box>
   
             <Box sx={{ display: "flex", alignItems: "center" }}>
               <Phone sx={{ mr: 1 }} fontSize="small" />
               <Typography fontSize={14}>
-                +91 98765 43210
+                +91 9325143126
               </Typography>
             </Box>
           </Box>
@@ -115,7 +115,7 @@ import {
           }}
         >
           <Typography variant="caption">
-            © 2026 Meera EcoTech. All rights reserved.
+            © 2026 Meera Tech. All rights reserved.
           </Typography>
         </Box>
       </Box>
