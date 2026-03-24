@@ -1,10 +1,8 @@
 import {
   Box,
-  Container,
-  Typography,
-  Grid,
   Card,
-  CardContent
+  Container,
+  Typography
 } from "@mui/material";
 
 function About() {

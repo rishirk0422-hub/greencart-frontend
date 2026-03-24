@@ -1,13 +1,11 @@
 import {
-    Box,
-    Typography,
-    Container,
-    Grid,
-    Button,
-    Card,
-    CardContent
-  } from "@mui/material";
-  import { useNavigate } from "react-router-dom";
+  Box,
+  Button,
+  Card,
+  Container,
+  Typography
+} from "@mui/material";
+import { useNavigate } from "react-router-dom";
   
   function Home() {
     const navigate = useNavigate();
