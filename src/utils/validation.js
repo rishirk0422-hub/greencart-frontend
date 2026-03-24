@@ -4,26 +4,12 @@ import * as yup from "yup";
    name: yup.string().required("Name is required"),
 
    email: yup
-     .string()
-     .nullable()
-     .email()
-     .when("showEmail", (showEmail) => {
-       if (showEmail) {
-         return yup
-           .string()
-           .email()
-           .matches(
-             /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/,
-             "Invalid Email Format"
-           )
-           .required("Required");
-       }
-     })
-     .required(),
+   .string()
+   .email()
+   .required("Required"),
 
    mobile: yup
      .string()
-     .matches(/^[6-9]\d{9}$/, "Enter valid 10-digit mobile")
      .required("Mobile is required"),
 
    password: yup
@@ -33,22 +19,9 @@ import * as yup from "yup";
  });
  export const loginSchema = yup.object({
    email: yup
-     .string()
-     .nullable()
-     .email()
-     .when("showEmail", (showEmail) => {
-       if (showEmail) {
-         return yup
-           .string()
-           .email()
-           .matches(
-             /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/,
-             "Invalid Email Format"
-           )
-           .required("Required");
-       }
-     })
-     .required(),
+   .string()
+   .email()
+   .required("Required"),
 
    password: yup
      .string()
